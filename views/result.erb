@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+
+  <body>
+   <div>
+    <h1>This Is Your Pig Latin Word/Phrase/Sentences:</h1>
+    <br>
+    <p style="font-size:24px; color:brow"><%= PigLatinizer.new.piglatinize(@user_phrase) %></p>
+
+   </div>
+
+   <div>
+    <a href="/" style="text-decoration:none; background-color:purple; color:white">Convert Another Sentence</a>
+   </div>
+  </body>
+
+</html>
